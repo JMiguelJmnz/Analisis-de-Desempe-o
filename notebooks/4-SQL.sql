@@ -50,7 +50,7 @@ CREATE TABLE FACT_SALES (
 );
 
 
---Importar los datos en cada tabla utilizando las funciones de importación. 
+--Importar los datos en cada tabla utilizando las funciones de importaciÃ³n. 
 BULK INSERT DIM_CATEGORY
 FROM 'E:\EBAC\Material\Proyecto empresa aliada entregable 1\DIM_CATEGORY (2).csv'
 WITH (
@@ -116,7 +116,7 @@ WITH (
 SELECT *
 FROM DIM_SEGMENT;
 
--- Ejecutar uniones entre las tablas para combinar la información y obtener insights clave sobre las ventas por categoría, región y periodo de tiempo.
+-- Ejecutar uniones entre las tablas para combinar la informaciÃ³n y obtener insights clave sobre las ventas por categorÃ­a, regiÃ³n y periodo de tiempo.
 
 SELECT *
 FROM DIM_PRODUCT
